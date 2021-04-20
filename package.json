@@ -1,24 +1,24 @@
 {
-  "name": "easy-rbac",
+  "name": "easy-rbac-inherit",
   "version": "3.1.1",
-  "description": "RBAC implementation for Node.js",
+  "description": "RBAC implementation for Node.js(改了角色继承逻辑，子角色如果鉴权不通过，则使用父角色再次判断)",
   "main": "lib/rbac.js",
   "scripts": {
     "test": "mocha test/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeadAlready/easy-rbac.git"
+    "url": "git+https://github.com/czwbig/easy-rbac.git"
   },
   "keywords": [
     "rbac"
   ],
-  "author": "Karl Düüna",
+  "author": "zhiwu.cao <czwbig@qq.com> (https://github.com/czwbig)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DeadAlready/easy-rbac/issues"
+    "url": "https://github.com/czwbig/easy-rbac/issues"
   },
-  "homepage": "https://github.com/DeadAlready/easy-rbac#readme",
+  "homepage": "https://github.com/czwbig/easy-rbac#readme",
   "dependencies": {
     "debug": "^2.2.0"
   },
